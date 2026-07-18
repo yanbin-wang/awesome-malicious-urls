@@ -13,7 +13,7 @@ Thank you for helping maintain this collection. 欢迎补充恶意与钓鱼 URL 
 
 ## Pull Request checklist
 
-- [ ] The paper directly concerns malicious or phishing URL detection.
+- [ ] The paper proposes, improves, or systematically studies malicious/phishing URL or webpage detection methods.
 - [ ] Title, year, and venue match the publisher record.
 - [ ] The entry is not a duplicate or an earlier version of an existing entry.
 - [ ] DOI/publisher/arXiv links work.
