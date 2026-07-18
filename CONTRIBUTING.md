@@ -8,8 +8,8 @@ Thank you for helping maintain this collection. 欢迎补充恶意与钓鱼 URL 
 2. Use the final published title and venue whenever available.
 3. Link to a DOI or publisher page; an arXiv link may be added as a secondary resource.
 4. Do not list a preprint and its final publication as separate papers.
-5. For every venue rating, include the ranking system's edition/year and an official source.
-6. Use `—` when a ranking is not applicable or the venue is not listed. Use `TBD` only when verification is still pending.
+5. If official code is available, add its GitHub repository in the GitHub column. Do not link unverified third-party implementations.
+6. Use `—` when no official GitHub repository is available.
 
 ## Pull Request checklist
 
@@ -17,10 +17,9 @@ Thank you for helping maintain this collection. 欢迎补充恶意与钓鱼 URL 
 - [ ] Title, year, and venue match the publisher record.
 - [ ] The entry is not a duplicate or an earlier version of an existing entry.
 - [ ] DOI/publisher/arXiv links work.
-- [ ] Venue ratings include an edition/year and a verifiable source.
+- [ ] Any GitHub link is the official implementation or is clearly identified otherwise.
 - [ ] The table remains sorted newest first.
 
 ## Corrections / 修正
 
-Metadata and ranking corrections are encouraged. In the Pull Request description, link to the authoritative source supporting the change.
-
+Metadata and link corrections are encouraged. In the Pull Request description, link to the authoritative source supporting the change.
