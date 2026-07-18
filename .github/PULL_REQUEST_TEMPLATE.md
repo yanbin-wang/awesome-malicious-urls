@@ -4,7 +4,7 @@
 
 ## Sources / 来源
 
-<!-- DOI or publisher page, plus official venue-rating sources where applicable. -->
+<!-- DOI or publisher page, plus the official GitHub repository when available. -->
 
 ## Checklist
 
