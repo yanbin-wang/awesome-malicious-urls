@@ -10,7 +10,7 @@ A curated collection of high-quality research on malicious and phishing URL dete
 
 ### 论文
 
-| 年份 | 论文 | 期刊 / 会议 | 论文链接 | GitHub |
+| Year | Paper | Journal / Conference | Paper Link | GitHub |
 |---:|---|---|---|---|
 | 2026 | IP-Augmented Multi-Modal Malicious URL Detection Via Token-Contrastive Representation Enhancement and Multi-Granularity Fusion | IEEE Transactions on Information Forensics and Security (TIFS) | [IEEE](https://ieeexplore.ieee.org/abstract/document/11592629/) · [arXiv](https://arxiv.org/abs/2510.12395) | [MACFormer](https://github.com/sevenolu7/MACFormer) |
 | 2026 | URL2Graph++: Unified Semantic-Structural-Character Learning for Malicious URL Detection | Information Fusion | [DOI](https://doi.org/10.1016/j.inffus.2026.104209) · [arXiv](https://arxiv.org/abs/2509.10287) | — |
@@ -35,3 +35,8 @@ A curated collection of high-quality research on malicious and phishing URL dete
 This repository curates high-quality research on malicious and phishing URL detection. The table above is the canonical paper list.
 
 Contributions are welcome. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) and submit a Pull Request.
+
+> [!NOTE]
+> If this collection is helpful to your research, please consider citing our papers listed above.
+>
+> 如果本项目对您的研究有所帮助，欢迎引用我们在上方列出的相关论文。
