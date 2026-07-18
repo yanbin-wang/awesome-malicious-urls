@@ -32,13 +32,47 @@ A curated collection of high-quality detection research on malicious and phishin
 - `PyraTrans` 是 `TransURL` 的预印本名称，二者合并为一个条目。
 - PMANet、URL2Graph++ 和 TIFS 论文的 arXiv 版本只作为资源链接，不重复计数。
 
+### Public Datasets / 公开数据集
+
+> [!IMPORTANT]
+> 数据集按其**实际提供的模态**分类，而不是按论文所使用的全部特征分类。使用前请核对各数据源的许可、使用条款与采集时间；实时 feed 会持续变化，实验时应保存获取日期和数据快照。
+
+#### URL-only / 纯 URL
+
+| Dataset | Labels / Coverage | Scale / Update | Access | Notes |
+|---|---|---|---|---|
+| [ISCX-URL2016](https://www.unb.ca/cic/datasets/url-2016.html) | Benign, spam, phishing, malware, defacement | More than 114K URLs across five classes | Direct download | 适合多分类；由 UNB Canadian Institute for Cybersecurity 发布。 |
+| [Phishing URL Dataset](https://data.mendeley.com/datasets/vfszbj9b36/1) | Phishing | 54,807 URLs | Direct download | 2024 年发布的静态钓鱼 URL 集。 |
+| [PhishTank](https://www.phishtank.net/developer_info.php) | Community-verified phishing URLs with online status | Continuously updated | Feed / API | 开放社区 feed；应记录下载时间，并自行构造可信的良性对照集。 |
+| [OpenPhish Community Feed](https://openphish.com/phishing_feeds.html) | Active phishing URLs | Updated every 12 hours; limited community feed | Direct feed | 免费社区版受其 Terms of Use 约束；学术实时数据与历史档案需另行申请。 |
+| [URLhaus](https://urlhaus.abuse.ch/api/) | Malware-distribution URLs | Continuously updated | API / feeds | 面向恶意软件分发 URL，不等同于钓鱼数据；遵守 abuse.ch Fair Use Principles。 |
+
+#### URL + Webpage-derived Features / URL＋网页衍生特征
+
+| Dataset | Modalities / Features | Labels / Scale | Access | Notes |
+|---|---|---|---|---|
+| [PhiUSIIL](https://archive.ics.uci.edu/dataset/967/phiusiil%2Bphishing%2Burl%2Bdataset) | URL and corresponding webpage-derived attributes; 54 features | 235,795 labeled instances | Direct download | UCI 托管；提供提取后的特征，并非原始 HTML 网页归档。 |
+
+#### Visual / Screenshot / 视觉截图
+
+| Dataset | Modalities | Labels / Coverage | Access | Notes |
+|---|---|---|---|---|
+| [VisualPhish](https://s-abdelnabi.github.io/VisualPhishNet/) | Webpage screenshots | Trusted legitimate sites, targeted phishing pages, newly crawled phishing pages and benign sites | Request required | 仅限研究用途，按项目页面说明通过邮件申请。 |
+
+#### Multimodal / 多模态
+
+| Dataset | Modalities | Labels / Scale | Access | Notes |
+|---|---|---|---|---|
+| [Phishpedia Benchmark](https://github.com/lindsey98/Phishpedia) | URL, HTML, screenshot and target brand | 30K phishing webpages | Direct download | 官方仓库提供数据链接；适合视觉品牌识别与参考式钓鱼检测，不含良性类别。 |
+| [TR-OP](https://github.com/imethanlee/KnowPhish#datasets) | Complete webpages for multimodal phishing evaluation | 5,000 benign + 5,000 phishing webpages | Direct download | KnowPhish 官方发布的平衡评测集；下载入口位于仓库的 Datasets 小节。 |
+
 ### 贡献
 
-请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，通过 Pull Request 新增论文或修正元数据。新增条目应提供论文永久链接（DOI、出版社页面或 arXiv）；如有官方代码，请同时提供 GitHub 链接。
+请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，通过 Pull Request 新增论文、公开数据集或修正元数据。论文应提供永久链接；数据集应提供官方来源、模态、标签/规模与访问条件。
 
 ## English
 
-This repository curates high-quality detection research on malicious and phishing URLs and webpages. Included papers should propose, improve, or systematically study detection methods. The table above is the canonical paper list.
+This repository curates high-quality detection research and public datasets for malicious and phishing URLs and webpages. Included papers should propose, improve, or systematically study detection methods. The tables above are the canonical paper and dataset lists.
 
 Contributions are welcome. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) and submit a Pull Request.
 
