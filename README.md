@@ -1,4 +1,4 @@
-# Awesome Malicious & Phishing URL Detection
+# Awesome Malicious & Phishing URL Detection Papers & Datasets
 
 [中文](#中文) | [English](#english)
 
