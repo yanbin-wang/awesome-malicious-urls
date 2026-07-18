@@ -2,11 +2,11 @@
 
 [中文](#中文) | [English](#english)
 
-A curated collection of high-quality research on malicious and phishing URL detection.
+A curated collection of high-quality detection research on malicious and phishing URLs and webpages.
 
 ## 中文
 
-本仓库收录高水平的恶意 URL 与钓鱼 URL 检测研究。欢迎通过 Pull Request 补充和修正。
+本仓库收录高水平的恶意 URL、钓鱼 URL 与钓鱼网页检测研究。收录论文应提出、改进或系统研究检测方法。欢迎通过 Pull Request 补充和修正。
 
 ### 论文
 
@@ -20,17 +20,11 @@ A curated collection of high-quality research on malicious and phishing URL dete
 | 2025 | PMANet: Malicious URL Detection via Post-Trained Language Model Guided Multi-Level Feature Attention Network | Information Fusion, 113: 102638 | [DOI](https://doi.org/10.1016/j.inffus.2024.102638) · [arXiv](https://arxiv.org/abs/2311.12372) | [PMANet](https://github.com/Alixyvtte/Malicious-URL-Detection-PMANet) |
 | 2025 | WebGuard++: Interpretable Malicious URL Detection via Bidirectional Fusion of HTML Subgraphs and Multi-Scale Convolutional BERT | arXiv | [arXiv](https://arxiv.org/abs/2506.19356) | — |
 | 2025 | PhishAgent: A Robust Multimodal Agent for Phishing Webpage Detection | AAAI 2025 | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/35003) · [arXiv](https://arxiv.org/abs/2408.10738) | — |
-| 2025 | Evaluating the Effectiveness and Robustness of Visual Similarity-based Phishing Detection Models | USENIX Security 2025 | [USENIX](https://www.usenix.org/conference/usenixsecurity25/presentation/ji) · [arXiv](https://arxiv.org/abs/2405.19598) | [PhishingEval](https://github.com/Fujiaoji/PhishingEval) |
-| 2025 | What's in Phishers: A Longitudinal Study of Security Configurations in Phishing Websites and Kits | The Web Conference 2025 | [DOI](https://doi.org/10.1145/3696410.3714710) | — |
-| 2025 | 7 Days Later: Analyzing Phishing-Site Lifespan After Detected | The Web Conference 2025 | [DOI](https://doi.org/10.1145/3696410.3714678) | [Phishing Alive Collector](https://github.com/0xk1h0/phishing_alive_measurement) |
 | 2024 | TransURL: Improving Malicious URL Detection with Multi-Layer Transformer Encoding and Multi-Scale Pyramid Features | Computer Networks, 253: 110707 | [DOI](https://doi.org/10.1016/j.comnet.2024.110707) · [arXiv / PyraTrans](https://arxiv.org/abs/2312.00508) | — |
 | 2024 | KnowPhish: Large Language Models Meet Multimodal Knowledge Graphs for Enhancing Reference-Based Phishing Detection | USENIX Security 2024 | [USENIX](https://www.usenix.org/conference/usenixsecurity24/presentation/li-yuexin) · [arXiv](https://arxiv.org/abs/2403.02253) | [KnowPhish](https://github.com/imethanlee/KnowPhish) |
 | 2024 | Less Defined Knowledge and More True Alarms: Reference-based Phishing Detection without a Pre-defined Reference List | USENIX Security 2024 | [USENIX](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-ruofan) | [PhishLLM](https://github.com/code-philia/PhishLLM) |
 | 2024 | PhishDecloaker: Detecting CAPTCHA-cloaked Phishing Websites via Hybrid Vision-based Interactive Models | USENIX Security 2024 | [USENIX](https://www.usenix.org/conference/usenixsecurity24/presentation/teoh) | [PhishDecloaker](https://github.com/code-philia/PhishDecloaker) |
-| 2024 | It Doesn't Look Like Anything to Me: Using Diffusion Model to Subvert Visual Phishing Detectors | USENIX Security 2024 | [USENIX](https://www.usenix.org/conference/usenixsecurity24/presentation/hao-qingying) | — |
 | 2024 | VORTEX: Visual Phishing DetectiOns aRe Through EXplanations | ACM Transactions on Internet Technology, 24(2) | [DOI](https://doi.org/10.1145/3654665) | — |
-| 2024 | Phishing Vs. Legit: Comparative Analysis of Client-Side Resources of Phishing and Target Brand Websites | The Web Conference 2024 | [DOI](https://doi.org/10.1145/3589334.3645535) | — |
-| 2024 | Beneath the Phishing Scripts: A Script-Level Analysis of Phishing Kits and Their Impact on Real-World Phishing Websites | ACM AsiaCCS 2024 | [DOI](https://doi.org/10.1145/3634737.3657013) | — |
 | 2023 | A Large-Scale Pretrained Deep Model for Phishing URL Detection | IEEE ICASSP 2023 | [DOI](https://doi.org/10.1109/ICASSP49357.2023.10095719) | [FedURLBERT](https://github.com/Davidup1/FedURLBERT) |
 
 ### 去重说明
@@ -44,7 +38,7 @@ A curated collection of high-quality research on malicious and phishing URL dete
 
 ## English
 
-This repository curates high-quality research on malicious and phishing URL detection. The table above is the canonical paper list.
+This repository curates high-quality detection research on malicious and phishing URLs and webpages. Included papers should propose, improve, or systematically study detection methods. The table above is the canonical paper list.
 
 Contributions are welcome. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) and submit a Pull Request.
 
